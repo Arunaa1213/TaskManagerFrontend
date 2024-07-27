@@ -1,46 +1,43 @@
-Frontend Project
-Overview
-This project is a Task Manager Application built with ReactJs, TailwindCSS, NodeJS, Express, MongoDB (MERN Stack) . It provides Registration, login for user, also Google Signin included. When user Logged in the tasks will be visible in their
-particular column. User can Add, Edit, Delete, View Task and also Darg and Drop to change the column of the task. User can also Sort and Search task accordingly.
+# Frontend Project
 
-Getting Started
+## Overview
+
+This project is a Task Manager Application built with the MERN stack (MongoDB, Express, ReactJS, NodeJS). It includes features such as:
+
+- User Registration and Login
+- Google Sign-In Integration
+- Task Management: Add, Edit, Delete, View
+- Drag and Drop to change task columns
+- Task Sorting and Searching
+
+## Getting Started
+
 To get started with the frontend project, follow these steps:
 
-Prerequisites
+### Prerequisites
+
 Make sure you have the following installed on your machine:
 
-Node.js (version 20.15.1 or later)
-npm (Node Package Manager, comes with Node.js)
-Installation
-Clone the Repository
+- [Node.js](https://nodejs.org/) (version 20.15.1 or later)
+- [npm](https://www.npmjs.com/) (Node Package Manager, comes with Node.js)
 
-bash
-Copy code
-git clone (https://github.com/Arunaa1213/TaskManagerFrontend.git)
-cd TaskManagerFrontend
-Install Dependencies
+### Installation
 
-bash
-Copy code
-npm install
-Run the Project
+1. **Clone the Repository**
 
-bash
-Copy code
-npm run start
-This will start the development server and open the application in your default browser. The application will automatically reload if you make edits to the source files.
+   ```bash
+   git clone https://github.com/Arunaa1213/TaskManagerFrontend.git
+   cd TaskManagerFrontend
 
-Scripts
-npm run start – Starts the development server.
-npm run build – Builds the project for production to the build folder.
-npm run test – Runs the tests (if applicable).
-Contributing
-We welcome contributions to this project. Please follow these guidelines:
+2. **Install Dependencies**
 
-Fork the repository and clone it to your local machine.
-Create a new branch for your feature or bugfix.
-Commit your changes with clear, descriptive messages.
-Push your changes to your fork and open a pull request.
+   ```bash
+   npm install
+   
+3. **Run project**
 
-Contact
+   ```bash
+   npm run start
+
+### contact
 For any questions or support, please contact Arunaa at arunaasureshkumar@gmail.com.
